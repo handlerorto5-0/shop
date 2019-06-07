@@ -5,7 +5,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.decimal :price, precision: 7, scale: 2
       t.integer :weight
       t.boolean :in_stock
-      t.date :expiration
+      t.date :expiration_data
 
       t.timestamps
     end

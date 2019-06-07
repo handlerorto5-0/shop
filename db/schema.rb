@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_06_07_115954) do
     t.decimal "price", precision: 7, scale: 2
     t.integer "weight"
     t.boolean "in_stock"
-    t.date "expiration"
+    t.date "expiration_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
